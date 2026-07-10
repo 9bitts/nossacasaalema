@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nossa Casa Alemanha — Documentos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">🏠</span>
+        <div>
+          <h1>Nossa Casa Alemanha</h1>
+          <p class="subtitle">Arquivo familiar organizado</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button type="button" class="btn btn-secondary" id="btn-upload-toggle">Enviar documento</button>
+      </div>
+    </div>
+    <div class="search-bar">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input type="search" id="search" placeholder="Buscar por nome, categoria ou tipo de arquivo..." autocomplete="off" />
+      <span class="search-count" id="search-count"></span>
+    </div>
+  </header>
+
+  <main class="main">
+    <aside class="sidebar" id="sidebar">
+      <h2>Categorias</h2>
+      <button type="button" class="category-chip active" data-category="all">Todos</button>
+      <div id="category-filters"></div>
+    </aside>
+
+    <section class="content">
+      <div class="stats" id="stats"></div>
+      <div class="doc-grid" id="doc-grid"></div>
+      <p class="empty-state hidden" id="empty-state">Nenhum documento encontrado.</p>
+    </section>
+  </main>
+
+  <dialog class="upload-dialog" id="upload-dialog">
+    <form id="upload-form" method="dialog">
+      <div class="dialog-header">
+        <h2>Enviar novo documento</h2>
+        <button type="button" class="icon-btn" id="btn-close-upload" aria-label="Fechar">&times;</button>
+      </div>
+      <p class="hint">O upload usa a API do GitHub. Informe um token com permissão de escrita no repositório.</p>
+      <label class="field">
+        <span>Token do GitHub (PAT)</span>
+        <input type="password" id="github-token" placeholder="ghp_..." autocomplete="off" />
+        <small><a href="https://github.com/settings/tokens" target="_blank" rel="noopener">Criar token</a> — escopo: Contents (Read and write)</small>
+      </label>
+      <label class="field">
+        <span>Categoria</span>
+        <select id="upload-category" required></select>
+      </label>
+      <label class="field">
+        <span>Arquivo(s)</span>
+        <input type="file" id="upload-files" multiple required accept=".pdf,.jpg,.jpeg,.png,.doc,.docx,.webp" />
+      </label>
+      <div class="upload-progress hidden" id="upload-progress">
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+        <p id="upload-status"></p>
+      </div>
+      <div class="dialog-actions">
+        <button type="button" class="btn btn-secondary" id="btn-cancel-upload">Cancelar</button>
+        <button type="submit" class="btn btn-primary" id="btn-submit-upload">Enviar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer class="footer">
+    <p>Repositório: <a href="https://github.com/9bitts/nossacasaalema" target="_blank" rel="noopener">9bitts/nossacasaalema</a></p>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

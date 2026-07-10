@@ -1,0 +1,1049 @@
+﻿{
+    "categories":  {
+                       "Jobcenter_Beneficios":  "Jobcenter e beneficios",
+                       "Escola":  "Escola e educacao",
+                       "Correspondencia_Outros":  "Correspondencia e outros",
+                       "Anmeldung":  "Registro de endereco",
+                       "Kindergeld":  "Kindergeld",
+                       "Imigracao":  "Imigracao e vistos",
+                       "Identidade":  "Identidade e documentos pessoais",
+                       "Trabalho_Renda":  "Trabalho e renda",
+                       "Casamento_Divorcio":  "Casamento e divorcio",
+                       "Saude_Seguros":  "Saude e seguros",
+                       "Moradia":  "Moradia e aluguel"
+                   },
+    "documents":  [
+                      {
+                          "id":  "6fa578bb-1e2d-4d8f-9501-5842af0c3502",
+                          "name":  "Anmeldung.jpg",
+                          "category":  "Anmeldung",
+                          "categoryLabel":  "Registro de endereco",
+                          "path":  "Organizado/Anmeldung/Anmeldung.jpg",
+                          "size":  4943593,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:34.3547396Z"
+                      },
+                      {
+                          "id":  "f85fad9a-6659-4f4b-93e2-f5205c4167bd",
+                          "name":  "anmeldung__Deutschland 2026.jpg",
+                          "category":  "Anmeldung",
+                          "categoryLabel":  "Registro de endereco",
+                          "path":  "Organizado/Anmeldung/anmeldung__Deutschland 2026.jpg",
+                          "size":  74170,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:30.5050451Z"
+                      },
+                      {
+                          "id":  "6adc1e13-87db-433a-9e40-2322468cc0aa",
+                          "name":  "Cópia de Anmeldung.jpg",
+                          "category":  "Anmeldung",
+                          "categoryLabel":  "Registro de endereco",
+                          "path":  "Organizado/Anmeldung/Cópia de Anmeldung.jpg",
+                          "size":  745693,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:37.3666617Z"
+                      },
+                      {
+                          "id":  "a1110187-ffe9-4fc3-9103-a1097e28d11e",
+                          "name":  "casamento diego apostila .pdf",
+                          "category":  "Casamento_Divorcio",
+                          "categoryLabel":  "Casamento e divorcio",
+                          "path":  "Organizado/Casamento_Divorcio/casamento diego apostila .pdf",
+                          "size":  3966395,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.8961796Z"
+                      },
+                      {
+                          "id":  "8f5d4d94-f0ab-411d-83a4-8dcae8c206a8",
+                          "name":  "casamentodivorcio.pdf",
+                          "category":  "Casamento_Divorcio",
+                          "categoryLabel":  "Casamento e divorcio",
+                          "path":  "Organizado/Casamento_Divorcio/casamentodivorcio.pdf",
+                          "size":  1246821,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4801797Z"
+                      },
+                      {
+                          "id":  "388f9892-f1ce-48c9-8d04-c27cdaccfc7b",
+                          "name":  "divorciocerto.pdf",
+                          "category":  "Casamento_Divorcio",
+                          "categoryLabel":  "Casamento e divorcio",
+                          "path":  "Organizado/Casamento_Divorcio/divorciocerto.pdf",
+                          "size":  1708065,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.9111762Z"
+                      },
+                      {
+                          "id":  "00add752-f0aa-4c56-b4d5-b8c3dd357034",
+                          "name":  "carta.pdf",
+                          "category":  "Correspondencia_Outros",
+                          "categoryLabel":  "Correspondencia e outros",
+                          "path":  "Organizado/Correspondencia_Outros/carta.pdf",
+                          "size":  3277994,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.7501768Z"
+                      },
+                      {
+                          "id":  "1afaafb9-b50a-428e-bb2a-8baa561888b5",
+                          "name":  "cartarecebida.pdf",
+                          "category":  "Correspondencia_Outros",
+                          "categoryLabel":  "Correspondencia e outros",
+                          "path":  "Organizado/Correspondencia_Outros/cartarecebida.pdf",
+                          "size":  3017257,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.8221778Z"
+                      },
+                      {
+                          "id":  "7aa6c6b6-69c9-474a-b6c6-a08235de997f",
+                          "name":  "Documento sem nome.docx",
+                          "category":  "Correspondencia_Outros",
+                          "categoryLabel":  "Correspondencia e outros",
+                          "path":  "Organizado/Correspondencia_Outros/Documento sem nome.docx",
+                          "size":  6491,
+                          "extension":  "docx",
+                          "updatedAt":  "2026-07-10T11:02:37.3716623Z"
+                      },
+                      {
+                          "id":  "36e56d66-f115-4bba-9776-2956047791ac",
+                          "name":  "catering Markkleeberg_.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/catering Markkleeberg_.pdf",
+                          "size":  2399794,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4900452Z"
+                      },
+                      {
+                          "id":  "32f8c982-b470-46e5-a104-ea1539c64322",
+                          "name":  "catering RWS Gael contrato.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/catering RWS Gael contrato.pdf",
+                          "size":  936897,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.5590452Z"
+                      },
+                      {
+                          "id":  "40c1fac0-69b3-4953-a504-09183c6d96d5",
+                          "name":  "catering RWS Gael.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/catering RWS Gael.pdf",
+                          "size":  649612,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.5480469Z"
+                      },
+                      {
+                          "id":  "f7cfd452-6d65-4314-84d6-d25bac6b5cac",
+                          "name":  "catering RWS Noah contrato.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/catering RWS Noah contrato.pdf",
+                          "size":  894535,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4109336Z"
+                      },
+                      {
+                          "id":  "ee4bd4f1-46d8-49dd-8c7c-6d279e3056a3",
+                          "name":  "catering RWS Noah.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/catering RWS Noah.pdf",
+                          "size":  732738,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4990452Z"
+                      },
+                      {
+                          "id":  "30e929cf-758d-4edc-80da-63860862f27e",
+                          "name":  "contratos escola Leipzig Noah e Gael.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/contratos escola Leipzig Noah e Gael.pdf",
+                          "size":  2563158,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.5830454Z"
+                      },
+                      {
+                          "id":  "84f063c2-5e02-44b4-9f23-7812be04208a",
+                          "name":  "Documento Escola Noah e Gael para desconto.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/Documento Escola Noah e Gael para desconto.pdf",
+                          "size":  1753600,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4309385Z"
+                      },
+                      {
+                          "id":  "ebdbe21e-5378-4232-af2f-d4f22da3ee08",
+                          "name":  "escola gael.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/escola gael.pdf",
+                          "size":  2604308,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.7981764Z"
+                      },
+                      {
+                          "id":  "3d7217c9-133f-48ce-97fa-05bcb485b254",
+                          "name":  "escola Noah .pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/escola Noah .pdf",
+                          "size":  1775086,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4316620Z"
+                      },
+                      {
+                          "id":  "440e1bff-b394-49fb-9513-27207d581905",
+                          "name":  "escolameninos.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/escolameninos.pdf",
+                          "size":  3998603,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.9726947Z"
+                      },
+                      {
+                          "id":  "3f5eeb91-4b8d-4ce7-b4d1-ec2ab2f72d78",
+                          "name":  "kindergarden.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/kindergarden.pdf",
+                          "size":  6200651,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:38.0186944Z"
+                      },
+                      {
+                          "id":  "7328e31e-3f37-408e-bc34-7f909342dcee",
+                          "name":  "senha portão escola Noah e Gael.pdf",
+                          "category":  "Escola",
+                          "categoryLabel":  "Escola e educacao",
+                          "path":  "Organizado/Escola/senha portão escola Noah e Gael.pdf",
+                          "size":  542671,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4009336Z"
+                      },
+                      {
+                          "id":  "b028ef41-4b34-45f5-b1e3-1c150e8823ae",
+                          "name":  "20260310968150.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/20260310968150.pdf",
+                          "size":  0,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.0777397Z"
+                      },
+                      {
+                          "id":  "feb518ec-9d1e-414d-974d-2754566ae7eb",
+                          "name":  "292877835.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/292877835.pdf",
+                          "size":  715786,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.3147400Z"
+                      },
+                      {
+                          "id":  "b6299a5d-c23c-42e0-8268-39342b725cbf",
+                          "name":  "Auweisdokument.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Auweisdokument.pdf",
+                          "size":  673720,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.1057446Z"
+                      },
+                      {
+                          "id":  "4a32acc4-a04a-4864-a378-dc69828dd85c",
+                          "name":  "certidão casamento.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/certidão casamento.pdf",
+                          "size":  3921685,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.6371778Z"
+                      },
+                      {
+                          "id":  "669a1707-6d53-4fc7-8ef2-8ab66400fcbe",
+                          "name":  "certidão de inteiro teor Natalia (1).pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/certidão de inteiro teor Natalia (1).pdf",
+                          "size":  3645026,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.7781785Z"
+                      },
+                      {
+                          "id":  "cef44a63-ddc1-4ed6-922f-fde056bca313",
+                          "name":  "certidão Diego.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/certidão Diego.pdf",
+                          "size":  3266598,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.5361763Z"
+                      },
+                      {
+                          "id":  "28468afe-bd4e-4079-8504-c0e0600e5860",
+                          "name":  "certidão Gael.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/certidão Gael.pdf",
+                          "size":  4035550,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.6791793Z"
+                      },
+                      {
+                          "id":  "78fe3df9-34dd-45ab-a24b-91f89ec57bdc",
+                          "name":  "certidão Hugo Albs.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/certidão Hugo Albs.pdf",
+                          "size":  1256411,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.3336618Z"
+                      },
+                      {
+                          "id":  "ecdc3d2d-243c-40de-a31c-55cc01bbe8aa",
+                          "name":  "certidão Natália_.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/certidão Natália_.pdf",
+                          "size":  3498511,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.5741843Z"
+                      },
+                      {
+                          "id":  "3acfc627-9983-4108-b19a-2322a612bed4",
+                          "name":  "certidão Noah.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/certidão Noah.pdf",
+                          "size":  4067822,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.9421859Z"
+                      },
+                      {
+                          "id":  "e2d61259-dfbb-4e60-91c2-7f45d1eb0e90",
+                          "name":  "certidaodivorcio inteiro teor-Apostilado (1).pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/certidaodivorcio inteiro teor-Apostilado (1).pdf",
+                          "size":  1137732,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4921762Z"
+                      },
+                      {
+                          "id":  "d3a38756-76d4-4da3-8356-8d4206a9bef6",
+                          "name":  "comprovante visto naty.jpg",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/comprovante visto naty.jpg",
+                          "size":  619054,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:37.5451764Z"
+                      },
+                      {
+                          "id":  "a9ba8811-5d43-4efe-a92f-e2a0e43d1c73",
+                          "name":  "diploma Naty.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/diploma Naty.pdf",
+                          "size":  2073071,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4006626Z"
+                      },
+                      {
+                          "id":  "c654ba87-8314-4750-818d-95473d4c11f2",
+                          "name":  "distrokid_promocard_Bra_C3_A7os_da_Terra.jpg",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/distrokid_promocard_Bra_C3_A7os_da_Terra.jpg",
+                          "size":  116633,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:34.1767398Z"
+                      },
+                      {
+                          "id":  "414ed8ea-a864-4478-87c5-424a3f21ebce",
+                          "name":  "Empfehlungsschreiben - Sebastian.jpg",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Empfehlungsschreiben - Sebastian.jpg",
+                          "size":  459731,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:34.2837398Z"
+                      },
+                      {
+                          "id":  "422290d9-4d07-4fa3-90c4-999339567473",
+                          "name":  "Formulário de registro Natália.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Formulário de registro Natália.pdf",
+                          "size":  3965132,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:38.0516944Z"
+                      },
+                      {
+                          "id":  "43a7c63f-806c-4122-9228-4680d181ecc9",
+                          "name":  "ID Diego.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/ID Diego.pdf",
+                          "size":  1089782,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4611762Z"
+                      },
+                      {
+                          "id":  "1a32f706-91fb-49aa-ab7e-30f2752c9846",
+                          "name":  "luciana ex .jpg",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/luciana ex .jpg",
+                          "size":  352358,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:37.2676618Z"
+                      },
+                      {
+                          "id":  "c8ee052f-4afc-4756-a4fa-79090bd5bb13",
+                          "name":  "numero de referência do Gael.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/numero de referência do Gael.pdf",
+                          "size":  707141,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.2277398Z"
+                      },
+                      {
+                          "id":  "79850eca-7dfc-4bd4-a05c-2f5cd8696449",
+                          "name":  "numero de referência do Noah.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/numero de referência do Noah.pdf",
+                          "size":  861575,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.1247397Z"
+                      },
+                      {
+                          "id":  "30ba2b0e-35b0-424f-afdc-0fa48106fdab",
+                          "name":  "Reisepass Diego.jpg",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Reisepass Diego.jpg",
+                          "size":  932931,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:37.2936617Z"
+                      },
+                      {
+                          "id":  "39e871aa-c443-42e3-b074-3a0341b8a8fe",
+                          "name":  "Reisepass Gael.jpg",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Reisepass Gael.jpg",
+                          "size":  1030637,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:37.3816638Z"
+                      },
+                      {
+                          "id":  "6a1d9e6f-c789-4a2e-a7ee-20ce007cc0ca",
+                          "name":  "Reisepass Natália.jpg",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Reisepass Natália.jpg",
+                          "size":  675245,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:37.2756618Z"
+                      },
+                      {
+                          "id":  "b702d9bd-da2b-4363-93cf-adcf86ed641d",
+                          "name":  "Reisepass Noah.jpg",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Reisepass Noah.jpg",
+                          "size":  1112773,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:37.4156621Z"
+                      },
+                      {
+                          "id":  "9ab3deea-55b4-4ac5-bc12-81ddba5633f3",
+                          "name":  "Staatsangehörigkeitsurkunde Heimatschein (Hugo Albs).pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Staatsangehörigkeitsurkunde Heimatschein (Hugo Albs).pdf",
+                          "size":  1468630,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.5380469Z"
+                      },
+                      {
+                          "id":  "d1609173-de1b-40c0-9fb7-a0bca42d8129",
+                          "name":  "Steuer-ID de todos.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Steuer-ID de todos.pdf",
+                          "size":  2453723,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.7251762Z"
+                      },
+                      {
+                          "id":  "becddb33-64e8-4f74-8e8a-20d2de26a78d",
+                          "name":  "Versicherungsnummernachweis.pdf",
+                          "category":  "Identidade",
+                          "categoryLabel":  "Identidade e documentos pessoais",
+                          "path":  "Organizado/Identidade/Versicherungsnummernachweis.pdf",
+                          "size":  751270,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.3106618Z"
+                      },
+                      {
+                          "id":  "ea91c2bc-3d5e-441d-9055-6180cf0df7a1",
+                          "name":  "Audit Trail.pdf",
+                          "category":  "Imigracao",
+                          "categoryLabel":  "Imigracao e vistos",
+                          "path":  "Organizado/Imigracao/Audit Trail.pdf",
+                          "size":  71768,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.2157398Z"
+                      },
+                      {
+                          "id":  "866e7b59-ca67-4e60-b58c-a251fd2c9f1f",
+                          "name":  "Ausländerbehörde.jpg",
+                          "category":  "Imigracao",
+                          "categoryLabel":  "Imigracao e vistos",
+                          "path":  "Organizado/Imigracao/Ausländerbehörde.jpg",
+                          "size":  390449,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:37.3506619Z"
+                      },
+                      {
+                          "id":  "c2386d8a-e028-4dac-991b-fe0c51b2d898",
+                          "name":  "carta convite.pdf",
+                          "category":  "Imigracao",
+                          "categoryLabel":  "Imigracao e vistos",
+                          "path":  "Organizado/Imigracao/carta convite.pdf",
+                          "size":  675645,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.3026618Z"
+                      },
+                      {
+                          "id":  "f39dc404-23e3-4ccd-97b5-f2fd3382eb33",
+                          "name":  "20260401_163756_Bewilligungsbescheid (2).pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/20260401_163756_Bewilligungsbescheid (2).pdf",
+                          "size":  131504,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.3929336Z"
+                      },
+                      {
+                          "id":  "85533b77-f52d-44e1-bce3-4af4b93f1bd4",
+                          "name":  "Bescheid über die Bewillingung von Leistungen zur Sicherung des Lebensunterhalts nach dem Zweiten Buch Sozialgesetzbuch (SGB II).pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/Bescheid über die Bewillingung von Leistungen zur Sicherung des Lebensunterhalts nach dem Zweiten Buch Sozialgesetzbuch (SGB II).pdf",
+                          "size":  9684941,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.7710530Z"
+                      },
+                      {
+                          "id":  "f5d061d4-5840-40b4-beec-7f62b11f72a9",
+                          "name":  "Bilden Juni.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/Bilden Juni.pdf",
+                          "size":  6570027,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:41.6783308Z"
+                      },
+                      {
+                          "id":  "4f9aed39-addf-4f97-a87a-183d44b0232e",
+                          "name":  "Brief an das JobCenter.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/Brief an das JobCenter.pdf",
+                          "size":  1015720,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4459422Z"
+                      },
+                      {
+                          "id":  "10cf60d9-48c5-4854-b1f1-0ddfd621c849",
+                          "name":  "Brief Juni.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/Brief Juni.pdf",
+                          "size":  1362900,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:41.6303151Z"
+                      },
+                      {
+                          "id":  "facea55a-81bc-4101-acfd-65c1d2b2963a",
+                          "name":  "Brief vom 24 02.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/Brief vom 24 02.pdf",
+                          "size":  408385,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.5120518Z"
+                      },
+                      {
+                          "id":  "bfce4a33-135f-4c65-9842-055564caf620",
+                          "name":  "EK Natalia.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/EK Natalia.pdf",
+                          "size":  2798498,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.6080452Z"
+                      },
+                      {
+                          "id":  "8e13d5a3-8ce9-4e94-86c1-b4d5b76c5add",
+                          "name":  "Formulários Jobcenter Leipzig_.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/Formulários Jobcenter Leipzig_.pdf",
+                          "size":  29024781,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.9755621Z"
+                      },
+                      {
+                          "id":  "13cc5722-68e0-428d-9bc0-4d42914f4995",
+                          "name":  "job center - Bürgergeld.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/job center - Bürgergeld.pdf",
+                          "size":  2858167,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.4197554Z"
+                      },
+                      {
+                          "id":  "e7a4829c-2906-4c0c-8d3c-df1eb9538835",
+                          "name":  "Job center Bürgergeld_.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/Job center Bürgergeld_.pdf",
+                          "size":  814752,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.2977399Z"
+                      },
+                      {
+                          "id":  "386e5e12-377f-4ae0-ab1c-2a65a0c26e79",
+                          "name":  "leisquemeprotegem.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/leisquemeprotegem.pdf",
+                          "size":  2694954,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.8681806Z"
+                      },
+                      {
+                          "id":  "a7bb234e-32a7-41ff-ac9c-82d4b2eebb63",
+                          "name":  "WEP Natalia.pdf",
+                          "category":  "Jobcenter_Beneficios",
+                          "categoryLabel":  "Jobcenter e beneficios",
+                          "path":  "Organizado/Jobcenter_Beneficios/WEP Natalia.pdf",
+                          "size":  5413853,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.6950469Z"
+                      },
+                      {
+                          "id":  "89a22535-9f15-418e-a0fb-4f0d21da52dc",
+                          "name":  "Beschrid über Kindergeld.pdf",
+                          "category":  "Kindergeld",
+                          "categoryLabel":  "Kindergeld",
+                          "path":  "Organizado/Kindergeld/Beschrid über Kindergeld.pdf",
+                          "size":  3359384,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.6380457Z"
+                      },
+                      {
+                          "id":  "c7c8c4cb-29d8-4424-a161-45be041f4e0c",
+                          "name":  "Carta Kindergeld .pdf",
+                          "category":  "Kindergeld",
+                          "categoryLabel":  "Kindergeld",
+                          "path":  "Organizado/Kindergeld/Carta Kindergeld .pdf",
+                          "size":  39934,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4149335Z"
+                      },
+                      {
+                          "id":  "db43d4c8-0bdf-4af2-b284-5af9055e5e08",
+                          "name":  "Kindergeld nach dem Einkommensteurgesetz (EStG).pdf",
+                          "category":  "Kindergeld",
+                          "categoryLabel":  "Kindergeld",
+                          "path":  "Organizado/Kindergeld/Kindergeld nach dem Einkommensteurgesetz (EStG).pdf",
+                          "size":  3063064,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.8461763Z"
+                      },
+                      {
+                          "id":  "d155af4f-7b64-405c-b236-541cfa106420",
+                          "name":  "Airbnb_Itinerary_HMEJE4JD5C_de_c805a.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Airbnb_Itinerary_HMEJE4JD5C_de_c805a.pdf",
+                          "size":  76144,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4416708Z"
+                      },
+                      {
+                          "id":  "91922260-a39f-4bde-8d45-59a67ed617bf",
+                          "name":  "Comprovante do caução_.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Comprovante do caução_.pdf",
+                          "size":  56994,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4046649Z"
+                      },
+                      {
+                          "id":  "c3e65756-9054-4074-9428-fa6f22db6738",
+                          "name":  "Contrato Slevogtstraße 19.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Contrato Slevogtstraße 19.pdf",
+                          "size":  1022884,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.5991764Z"
+                      },
+                      {
+                          "id":  "68050b5c-2d64-4121-86e9-d1f13475f537",
+                          "name":  "dresden.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/dresden.pdf",
+                          "size":  1791476,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.6951784Z"
+                      },
+                      {
+                          "id":  "562eec27-b1d3-4e69-9466-fb9517dee2cd",
+                          "name":  "Immowelt - Selbsterklärung für Vermietungszwecke.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Immowelt - Selbsterklärung für Vermietungszwecke.pdf",
+                          "size":  1025863,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.1717399Z"
+                      },
+                      {
+                          "id":  "97d3c578-813e-417b-bea4-66871af47bb2",
+                          "name":  "Immowelt Teil 1 - Nach Besichtigung der Wohnung_.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Immowelt Teil 1 - Nach Besichtigung der Wohnung_.pdf",
+                          "size":  1207524,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.3667552Z"
+                      },
+                      {
+                          "id":  "86c71615-ee5d-483c-9808-d36921b5e101",
+                          "name":  "Leipzig Immo - Selbstauskunft von Mietinteressenten.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Leipzig Immo - Selbstauskunft von Mietinteressenten.pdf",
+                          "size":  6066499,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.4783052Z"
+                      },
+                      {
+                          "id":  "5d076f8f-37b5-4e63-9cac-ed37ed458b23",
+                          "name":  "LeipzigPass_.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/LeipzigPass_.pdf",
+                          "size":  11585858,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:41.7583153Z"
+                      },
+                      {
+                          "id":  "d0dc8a51-5db6-4c5f-8654-446d1d1c5744",
+                          "name":  "Mietvertrag_Slevogtstraße 19_WE 4_Albs Passos-Pereira.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Mietvertrag_Slevogtstraße 19_WE 4_Albs Passos-Pereira.pdf",
+                          "size":  233312,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.3717401Z"
+                      },
+                      {
+                          "id":  "94a23e25-3db1-43f2-8168-a20f4285e4f7",
+                          "name":  "rent Transaction-Details_03-03-2026.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/rent Transaction-Details_03-03-2026.pdf",
+                          "size":  56608,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4349385Z"
+                      },
+                      {
+                          "id":  "5a0f5e83-bf53-4c76-a2f5-34d949776f37",
+                          "name":  "Seu recibo do Airbnb_251217_091209.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Seu recibo do Airbnb_251217_091209.pdf",
+                          "size":  86392,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.2806662Z"
+                      },
+                      {
+                          "id":  "a9a5b139-b84c-4389-8853-dde0eff12492",
+                          "name":  "Vermieterbestätitung.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Vermieterbestätitung.pdf",
+                          "size":  531616,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.1137396Z"
+                      },
+                      {
+                          "id":  "86d84967-1b19-4085-b137-756efe69600e",
+                          "name":  "Wohnungsgeberbestätigung.pdf",
+                          "category":  "Moradia",
+                          "categoryLabel":  "Moradia e aluguel",
+                          "path":  "Organizado/Moradia/Wohnungsgeberbestätigung.pdf",
+                          "size":  1425812,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.5871774Z"
+                      },
+                      {
+                          "id":  "2ba60615-516d-4da7-bd4c-5dad4d990f4c",
+                          "name":  "AOK carta 1.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK carta 1.pdf",
+                          "size":  547922,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.1397397Z"
+                      },
+                      {
+                          "id":  "a7f472ec-6d5b-42af-9a7c-d019b5c34b4a",
+                          "name":  "AOK carta para jobcenter.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK carta para jobcenter.pdf",
+                          "size":  341136,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4376718Z"
+                      },
+                      {
+                          "id":  "66f60148-b560-4b2d-8a76-e768896b9100",
+                          "name":  "AOK Cartão.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK Cartão.pdf",
+                          "size":  1448327,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.1907398Z"
+                      },
+                      {
+                          "id":  "832fe308-1aa2-46f9-8aef-2782d1ff9cf6",
+                          "name":  "AOK Diego.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK Diego.pdf",
+                          "size":  696426,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.1487397Z"
+                      },
+                      {
+                          "id":  "fa0d5d2f-df81-4427-8864-a7604c3a254f",
+                          "name":  "AOK Diego__Docs.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK Diego__Docs.pdf",
+                          "size":  930643,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:38.0606979Z"
+                      },
+                      {
+                          "id":  "6ab216d4-697b-4928-90f6-066d45daf8d6",
+                          "name":  "AOK Natália_.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK Natália_.pdf",
+                          "size":  1234795,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.6510479Z"
+                      },
+                      {
+                          "id":  "b1fbead3-5f59-4d76-9849-3c815441fbfc",
+                          "name":  "AOK Natália___Docs.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK Natália___Docs.pdf",
+                          "size":  967560,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.3216618Z"
+                      },
+                      {
+                          "id":  "a10122a7-270a-4bb2-ae89-121befff5b7f",
+                          "name":  "AOK número_.jpg",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK número_.jpg",
+                          "size":  7574169,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:34.2767397Z"
+                      },
+                      {
+                          "id":  "39b1f78e-a0d2-40ce-9fdb-fae29af13a9e",
+                          "name":  "AOK Plus .jpg",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/AOK Plus .jpg",
+                          "size":  3074523,
+                          "extension":  "jpg",
+                          "updatedAt":  "2026-07-10T11:02:34.3937397Z"
+                      },
+                      {
+                          "id":  "1640681c-f3ac-4da5-9498-3e12cec4dedd",
+                          "name":  "Dentista Diego- da obrigação de confidencialidade_cópia.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/Dentista Diego- da obrigação de confidencialidade_cópia.pdf",
+                          "size":  178699,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.4661783Z"
+                      },
+                      {
+                          "id":  "7e658245-6695-41c3-82b5-63fbf648f8bd",
+                          "name":  "GetSafe - Haftpflicht Versicherungsnachweis.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/GetSafe - Haftpflicht Versicherungsnachweis.pdf",
+                          "size":  27539,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.3967441Z"
+                      },
+                      {
+                          "id":  "d7150a35-0bc9-4f81-bb52-504c6ebf493c",
+                          "name":  "GetSafe Versicherungsausweis.pdf.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/GetSafe Versicherungsausweis.pdf.pdf",
+                          "size":  1684317,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.4337551Z"
+                      },
+                      {
+                          "id":  "30c21eff-e10c-4332-ad5d-6cdd97784911",
+                          "name":  "LA9572576UKGZ-56009036-6dd2-4a18-b866-c80688d67e92-cuv.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/LA9572576UKGZ-56009036-6dd2-4a18-b866-c80688d67e92-cuv.pdf",
+                          "size":  65075,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.2836618Z"
+                      },
+                      {
+                          "id":  "52a3d4cc-e9d6-48df-a262-3e6f99252a5c",
+                          "name":  "Versicherungsausweis ARAG WohnenPlus Versicherungspaket S.pdf",
+                          "category":  "Saude_Seguros",
+                          "categoryLabel":  "Saude e seguros",
+                          "path":  "Organizado/Saude_Seguros/Versicherungsausweis ARAG WohnenPlus Versicherungspaket S.pdf",
+                          "size":  107022,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.2317399Z"
+                      },
+                      {
+                          "id":  "2a2afd15-c0ec-49b5-976e-2059e743f9c1",
+                          "name":  "account bank.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/account bank.pdf",
+                          "size":  247410,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.5180453Z"
+                      },
+                      {
+                          "id":  "71800536-d5d9-4d06-8659-5e077c67222e",
+                          "name":  "contracheque dezembro.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/contracheque dezembro.pdf",
+                          "size":  78879,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:37.3376638Z"
+                      },
+                      {
+                          "id":  "9777a251-cda0-41c6-bbe3-09e1f0fcbc6b",
+                          "name":  "DBank feb.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/DBank feb.pdf",
+                          "size":  273141,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4550498Z"
+                      },
+                      {
+                          "id":  "fbc0e8f2-78d6-4d5c-b06c-063343c7b43c",
+                          "name":  "DBank march.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/DBank march.pdf",
+                          "size":  252377,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.9805621Z"
+                      },
+                      {
+                          "id":  "1c2563cb-d151-4c5b-9369-13c0fdff199d",
+                          "name":  "DE Rider Part-time 32 Limited - December 2025.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/DE Rider Part-time 32 Limited - December 2025.pdf",
+                          "size":  979525,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.3067397Z"
+                      },
+                      {
+                          "id":  "76f03662-6fa9-475c-958d-ece61f2f1c96",
+                          "name":  "Deutsch Bank.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/Deutsch Bank.pdf",
+                          "size":  504664,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:34.1317397Z"
+                      },
+                      {
+                          "id":  "797e3c12-2a37-4828-a45a-429f61f8427c",
+                          "name":  "jan-mar Natália Bank.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/jan-mar Natália Bank.pdf",
+                          "size":  125686,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4680451Z"
+                      },
+                      {
+                          "id":  "52eff594-4f9c-4b99-bcf3-2e5d58445867",
+                          "name":  "N26 Dez.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/N26 Dez.pdf",
+                          "size":  43565,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4630484Z"
+                      },
+                      {
+                          "id":  "2a2b95f5-5b2e-4b99-8199-b2a4776518e2",
+                          "name":  "N26 Jan.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/N26 Jan.pdf",
+                          "size":  55401,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4590452Z"
+                      },
+                      {
+                          "id":  "a3ae4295-c44a-4dc9-9263-c1ff1ce79a16",
+                          "name":  "N26 Nov.pdf",
+                          "category":  "Trabalho_Renda",
+                          "categoryLabel":  "Trabalho e renda",
+                          "path":  "Organizado/Trabalho_Renda/N26 Nov.pdf",
+                          "size":  23791,
+                          "extension":  "pdf",
+                          "updatedAt":  "2026-07-10T11:02:30.4499375Z"
+                      }
+                  ],
+    "generatedAt":  "2026-07-10T11:24:19.0302537Z",
+    "total":  103
+}
