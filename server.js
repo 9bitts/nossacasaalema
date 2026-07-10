@@ -68,7 +68,17 @@ function passwordMatches(input) {
 }
 
 app.get('/api/session', (req, res) => {
-  res.json({ authenticated: isAuthenticated(req), configured: authConfigured() });
+  const at = AUTH_EMAIL.indexOf('@');
+  const emailHint = at > 0
+    ? `${AUTH_EMAIL.slice(0, 1)}***${AUTH_EMAIL.slice(at)}`
+    : '***';
+
+  res.json({
+    authenticated: isAuthenticated(req),
+    configured: authConfigured(),
+    emailHint,
+    authMode: AUTH_PASSWORD && AUTH_PASSWORD_HASH ? 'both' : AUTH_PASSWORD ? 'password' : 'hash',
+  });
 });
 
 app.post('/api/login', (req, res) => {

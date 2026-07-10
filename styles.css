@@ -71,6 +71,12 @@ a { color: var(--primary); }
   margin-bottom: 1rem;
 }
 
+.login-hint {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-color: #bfdbfe;
+}
+
 .btn-full { width: 100%; padding: 0.75rem; font-size: 1rem; }
 
 .header {

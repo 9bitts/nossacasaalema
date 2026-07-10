@@ -35,11 +35,12 @@ export async function login(email, password) {
     });
     if (res.ok) {
       sessionStorage.setItem(SESSION_KEY, '1');
-      return true;
+      return { ok: true };
     }
-    return false;
+    const data = await res.json().catch(() => ({}));
+    return { ok: false, error: data.error || 'E-mail ou senha incorretos.' };
   } catch {
-    return false;
+    return { ok: false, error: 'Erro de conexao com o servidor.' };
   }
 }
 
@@ -48,12 +49,13 @@ function showApp() {
   document.getElementById('app').classList.remove('hidden');
 }
 
-function showLogin(error = '') {
+function showLogin(error = '', isHint = false) {
   document.getElementById('login-screen').classList.remove('hidden');
   document.getElementById('app').classList.add('hidden');
   const errEl = document.getElementById('login-error');
   if (error) {
     errEl.textContent = error;
+    errEl.classList.toggle('login-hint', isHint);
     errEl.classList.remove('hidden');
   } else {
     errEl.classList.add('hidden');
@@ -70,17 +72,21 @@ function setupLoginForm() {
     btn.disabled = true;
     btn.textContent = 'Entrando...';
 
-    const ok = await login(email, password);
-    if (ok) {
+    const result = await login(email, password);
+    if (result.ok) {
       showApp();
       const { initApp } = await import('./app.js');
       initApp();
     } else {
-      let msg = 'E-mail ou senha incorretos.';
+      let msg = result.error || 'E-mail ou senha incorretos.';
       try {
         const check = await fetch('/api/session');
         const data = await check.json();
-        if (!data.configured) msg = 'Servidor sem credenciais. Configure AUTH_EMAIL e AUTH_PASSWORD no Railway.';
+        if (!data.configured) {
+          msg = 'Servidor sem credenciais. Configure AUTH_EMAIL e AUTH_PASSWORD no Railway.';
+        } else if (data.emailHint) {
+          msg += ` E-mail esperado: ${data.emailHint}`;
+        }
       } catch { /* ignore */ }
       showLogin(msg);
       btn.disabled = false;
@@ -90,12 +96,21 @@ function setupLoginForm() {
 }
 
 async function boot() {
+  let sessionInfo = { configured: false, emailHint: '' };
+  try {
+    const res = await fetch('/api/session', { credentials: 'same-origin' });
+    sessionInfo = await res.json();
+  } catch { /* ignore */ }
+
   if (await isLoggedIn()) {
     showApp();
     const { initApp } = await import('./app.js');
     initApp();
   } else {
-    showLogin();
+    const hint = sessionInfo.emailHint
+      ? `Servidor espera o e-mail: ${sessionInfo.emailHint}`
+      : '';
+    showLogin(hint, true);
     setupLoginForm();
   }
 }
