@@ -14,7 +14,7 @@ function cleanEnv(value) {
 
 const AUTH_EMAIL = cleanEnv(process.env.AUTH_EMAIL).toLowerCase();
 const AUTH_PASSWORD = cleanEnv(process.env.AUTH_PASSWORD);
-const AUTH_PASSWORD_HASH = cleanEnv(process.env.AUTH_PASSWORD_HASH).toLowerCase();
+const AUTH_PASSWORD_HASH_RAW = cleanEnv(process.env.AUTH_PASSWORD_HASH);
 
 app.set('trust proxy', 1);
 app.use(express.json({ limit: '50mb' }));
@@ -42,7 +42,7 @@ function isAuthenticated(req) {
 const PUBLIC_PATHS = new Set(['/', '/index.html', '/styles.css', '/auth.js']);
 
 function authConfigured() {
-  return Boolean(AUTH_EMAIL && (AUTH_PASSWORD || AUTH_PASSWORD_HASH));
+  return Boolean(AUTH_EMAIL && (AUTH_PASSWORD || AUTH_PASSWORD_HASH_RAW));
 }
 
 function isSha256Hex(value) {
@@ -50,12 +50,12 @@ function isSha256Hex(value) {
 }
 
 function passwordMatches(input) {
-  if (AUTH_PASSWORD_HASH) {
-    if (isSha256Hex(AUTH_PASSWORD_HASH)) {
-      if (hashPassword(input) === AUTH_PASSWORD_HASH) return true;
+  if (AUTH_PASSWORD_HASH_RAW) {
+    if (isSha256Hex(AUTH_PASSWORD_HASH_RAW)) {
+      if (hashPassword(input) === AUTH_PASSWORD_HASH_RAW.toLowerCase()) return true;
     } else {
       const a = Buffer.from(input, 'utf8');
-      const b = Buffer.from(AUTH_PASSWORD_HASH, 'utf8');
+      const b = Buffer.from(AUTH_PASSWORD_HASH_RAW, 'utf8');
       if (a.length === b.length && crypto.timingSafeEqual(a, b)) return true;
     }
   }
@@ -77,7 +77,7 @@ app.get('/api/session', (req, res) => {
     authenticated: isAuthenticated(req),
     configured: authConfigured(),
     emailHint,
-    authMode: AUTH_PASSWORD && AUTH_PASSWORD_HASH ? 'both' : AUTH_PASSWORD ? 'password' : 'hash',
+    authMode: AUTH_PASSWORD && AUTH_PASSWORD_HASH_RAW ? 'both' : AUTH_PASSWORD ? 'password' : 'hash',
   });
 });
 
