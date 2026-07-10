@@ -274,9 +274,14 @@ function setupUploadDialog() {
   els.uploadForm.addEventListener('submit', handleUpload);
 }
 
-async function init() {
+export async function initApp() {
   restoreToken();
   setupUploadDialog();
+
+  document.getElementById('btn-logout').addEventListener('click', async () => {
+    const { logout } = await import('./auth.js');
+    logout();
+  });
 
   els.search.addEventListener('input', (e) => {
     searchQuery = e.target.value.trim();
@@ -292,5 +297,3 @@ async function init() {
     els.docGrid.innerHTML = `<p class="empty-state">Erro ao carregar documentos: ${err.message}</p>`;
   }
 }
-
-init();

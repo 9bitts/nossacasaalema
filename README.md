@@ -4,6 +4,23 @@ Arquivo familiar de documentos organizados por categoria, com busca, download e 
 
 **Site:** https://9bitts.github.io/nossacasaalema/
 
+## Acesso
+
+Login com um único e-mail e senha (configurados em `auth-config.js`):
+
+| Campo | Valor padrão |
+|-------|----------------|
+| E-mail | `familia@nossacasaalema.de` |
+| Senha | `NossaCasa2026!` |
+
+Para alterar a senha:
+
+```powershell
+powershell -File scripts/hash-password.ps1 "NovaSenhaAqui"
+```
+
+Copie o hash gerado para `AUTH_PASSWORD_HASH` em `auth-config.js` e altere `AUTH_EMAIL` se necessário.
+
 ## Estrutura
 
 ```
