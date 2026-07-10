@@ -76,7 +76,13 @@ function setupLoginForm() {
       const { initApp } = await import('./app.js');
       initApp();
     } else {
-      showLogin('E-mail ou senha incorretos.');
+      let msg = 'E-mail ou senha incorretos.';
+      try {
+        const check = await fetch('/api/session');
+        const data = await check.json();
+        if (!data.configured) msg = 'Servidor sem credenciais. Configure AUTH_EMAIL e AUTH_PASSWORD no Railway.';
+      } catch { /* ignore */ }
+      showLogin(msg);
       btn.disabled = false;
       btn.textContent = 'Entrar';
     }

@@ -11,8 +11,9 @@ Credenciais ficam **somente no Railway**, nunca no codigo:
 | Variavel | Descricao |
 |----------|-----------|
 | `AUTH_EMAIL` | E-mail unico permitido |
+| `AUTH_PASSWORD` | Senha em texto (mais simples) **ou** |
 | `AUTH_PASSWORD_HASH` | SHA-256 da senha |
-| `SESSION_SECRET` | String aleatoria longa (ex.: 32+ caracteres) |
+| `SESSION_SECRET` | String aleatoria longa |
 
 Gerar hash da senha:
 

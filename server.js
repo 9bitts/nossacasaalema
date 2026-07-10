@@ -5,13 +5,22 @@ const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === 'production' || Boolean(process.env.RAILWAY_ENVIRONMENT);
+
+function cleanEnv(value) {
+  if (value == null) return '';
+  return String(value).trim().replace(/^["']|["']$/g, '');
+}
+
+const AUTH_EMAIL = cleanEnv(process.env.AUTH_EMAIL).toLowerCase();
+const AUTH_PASSWORD = cleanEnv(process.env.AUTH_PASSWORD);
+const AUTH_PASSWORD_HASH = cleanEnv(process.env.AUTH_PASSWORD_HASH).toLowerCase();
 
 app.set('trust proxy', 1);
 app.use(express.json({ limit: '50mb' }));
 
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'dev-only-change-in-production',
+  secret: cleanEnv(process.env.SESSION_SECRET) || 'dev-only-change-in-production',
   resave: false,
   saveUninitialized: false,
   cookie: {
@@ -33,7 +42,29 @@ function isAuthenticated(req) {
 const PUBLIC_PATHS = new Set(['/', '/index.html', '/styles.css', '/auth.js']);
 
 function authConfigured() {
-  return Boolean(process.env.AUTH_EMAIL && process.env.AUTH_PASSWORD_HASH);
+  return Boolean(AUTH_EMAIL && (AUTH_PASSWORD || AUTH_PASSWORD_HASH));
+}
+
+function isSha256Hex(value) {
+  return /^[a-f0-9]{64}$/i.test(value);
+}
+
+function passwordMatches(input) {
+  if (AUTH_PASSWORD_HASH) {
+    if (isSha256Hex(AUTH_PASSWORD_HASH)) {
+      if (hashPassword(input) === AUTH_PASSWORD_HASH) return true;
+    } else {
+      const a = Buffer.from(input, 'utf8');
+      const b = Buffer.from(AUTH_PASSWORD_HASH, 'utf8');
+      if (a.length === b.length && crypto.timingSafeEqual(a, b)) return true;
+    }
+  }
+  if (AUTH_PASSWORD) {
+    const a = Buffer.from(input, 'utf8');
+    const b = Buffer.from(AUTH_PASSWORD, 'utf8');
+    if (a.length === b.length && crypto.timingSafeEqual(a, b)) return true;
+  }
+  return false;
 }
 
 app.get('/api/session', (req, res) => {
@@ -47,13 +78,13 @@ app.post('/api/login', (req, res) => {
 
   const email = String(req.body.email || '').trim().toLowerCase();
   const password = String(req.body.password || '');
-  const expectedEmail = process.env.AUTH_EMAIL.trim().toLowerCase();
-  const expectedHash = process.env.AUTH_PASSWORD_HASH.trim().toLowerCase();
-  const hash = hashPassword(password);
 
-  if (email === expectedEmail && hash === expectedHash) {
+  if (email === AUTH_EMAIL && passwordMatches(password)) {
     req.session.authenticated = true;
-    return res.json({ ok: true });
+    return req.session.save((err) => {
+      if (err) return res.status(500).json({ error: 'Erro ao iniciar sessao.' });
+      return res.json({ ok: true });
+    });
   }
 
   return res.status(401).json({ error: 'E-mail ou senha incorretos.' });
@@ -85,7 +116,8 @@ app.use((req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Servidor em http://localhost:${PORT}`);
+  console.log(`Auth configurado: ${authConfigured() ? 'sim' : 'nao'}`);
   if (!authConfigured()) {
-    console.warn('AVISO: defina AUTH_EMAIL e AUTH_PASSWORD_HASH nas variaveis de ambiente.');
+    console.warn('Defina AUTH_EMAIL + AUTH_PASSWORD (ou AUTH_PASSWORD_HASH) no Railway.');
   }
 });
