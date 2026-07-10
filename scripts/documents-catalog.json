@@ -1,0 +1,626 @@
+{
+  "Anmeldung|Anmeldung.jpg": {
+    "fileName": "Anmeldung_Scan_gross.jpg",
+    "nameDe": "Anmeldung (Scan)",
+    "namePt": "Registro de endereço (scan completo)",
+    "descriptionPt": "Certificado de registro de residência — scan em alta resolução."
+  },
+  "Anmeldung|anmeldung__Deutschland 2026.jpg": {
+    "fileName": "Anmeldung_Auszug.jpg",
+    "nameDe": "Anmeldung (Auszug)",
+    "namePt": "Registro de endereço (resumo)",
+    "descriptionPt": "Versão compacta do documento de Anmeldung."
+  },
+  "Anmeldung|Cópia de Anmeldung.jpg": {
+    "fileName": "Anmeldung_Kopie.jpg",
+    "nameDe": "Anmeldung (Kopie)",
+    "namePt": "Cópia do registro de endereço",
+    "descriptionPt": "Segunda cópia do certificado de Anmeldung."
+  },
+  "Casamento_Divorcio|casamento diego apostila .pdf": {
+    "fileName": "Heiratsurkunde_Diego_Apostille.pdf",
+    "nameDe": "Heiratsurkunde Diego (Apostille)",
+    "namePt": "Certidão de casamento apostilada",
+    "descriptionPt": "Certidão de casamento de Diego com apostila da Haia."
+  },
+  "Casamento_Divorcio|casamentodivorcio.pdf": {
+    "fileName": "Heirats_und_Scheidungsurkunden.pdf",
+    "nameDe": "Heirats- und Scheidungsurkunden",
+    "namePt": "Casamento e divórcio",
+    "descriptionPt": "Documentos civis de casamento e divórcio reunidos."
+  },
+  "Casamento_Divorcio|divorciocerto.pdf": {
+    "fileName": "Scheidungsbestaetigung.pdf",
+    "nameDe": "Scheidungsbestätigung",
+    "namePt": "Confirmação de divórcio",
+    "descriptionPt": "Comprovante ou certificado de divórcio."
+  },
+  "Correspondencia_Outros|carta.pdf": {
+    "fileName": "Schreiben.pdf",
+    "nameDe": "Schreiben",
+    "namePt": "Carta",
+    "descriptionPt": "Correspondência geral arquivada."
+  },
+  "Correspondencia_Outros|cartarecebida.pdf": {
+    "fileName": "Eingegangenes_Schreiben.pdf",
+    "nameDe": "Eingegangenes Schreiben",
+    "namePt": "Carta recebida",
+    "descriptionPt": "Documento ou carta recebida por correio."
+  },
+  "Correspondencia_Outros|Documento sem nome.docx": {
+    "fileName": "Unbenanntes_Dokument.docx",
+    "nameDe": "Unbenanntes Dokument",
+    "namePt": "Documento sem nome",
+    "descriptionPt": "Arquivo Word ainda sem título definido — revisar conteúdo."
+  },
+  "Escola|catering Markkleeberg_.pdf": {
+    "fileName": "Catering-Vertrag_Markkleeberg.pdf",
+    "nameDe": "Catering-Vertrag Markkleeberg",
+    "namePt": "Contrato de catering Markkleeberg",
+    "descriptionPt": "Serviço de refeições escolares em Markkleeberg."
+  },
+  "Escola|catering RWS Gael contrato.pdf": {
+    "fileName": "Catering-Vertrag_RWS_Gael.pdf",
+    "nameDe": "Catering-Vertrag RWS (Gael)",
+    "namePt": "Contrato de catering — Gael",
+    "descriptionPt": "Contrato de alimentação escolar RWS para Gael."
+  },
+  "Escola|catering RWS Gael.pdf": {
+    "fileName": "Catering_RWS_Gael.pdf",
+    "nameDe": "Catering RWS (Gael)",
+    "namePt": "Catering escolar — Gael",
+    "descriptionPt": "Documento do serviço de catering RWS para Gael."
+  },
+  "Escola|catering RWS Noah contrato.pdf": {
+    "fileName": "Catering-Vertrag_RWS_Noah.pdf",
+    "nameDe": "Catering-Vertrag RWS (Noah)",
+    "namePt": "Contrato de catering — Noah",
+    "descriptionPt": "Contrato de alimentação escolar RWS para Noah."
+  },
+  "Escola|catering RWS Noah.pdf": {
+    "fileName": "Catering_RWS_Noah.pdf",
+    "nameDe": "Catering RWS (Noah)",
+    "namePt": "Catering escolar — Noah",
+    "descriptionPt": "Documento do serviço de catering RWS para Noah."
+  },
+  "Escola|contratos escola Leipzig Noah e Gael.pdf": {
+    "fileName": "Schulvertraege_Leipzig_Noah_Gael.pdf",
+    "nameDe": "Schulverträge Leipzig (Noah & Gael)",
+    "namePt": "Contratos escolares Leipzig",
+    "descriptionPt": "Contratos de matrícula de Noah e Gael em Leipzig."
+  },
+  "Escola|Documento Escola Noah e Gael para desconto.pdf": {
+    "fileName": "Schulrabatt_Noah_Gael.pdf",
+    "nameDe": "Schulrabatt-Dokument",
+    "namePt": "Desconto escolar",
+    "descriptionPt": "Formulário para desconto na mensalidade escolar."
+  },
+  "Escola|escola gael.pdf": {
+    "fileName": "Schulunterlagen_Gael.pdf",
+    "nameDe": "Schulunterlagen Gael",
+    "namePt": "Documentos escolares — Gael",
+    "descriptionPt": "Papelada e documentos da escola de Gael."
+  },
+  "Escola|escola Noah .pdf": {
+    "fileName": "Schulunterlagen_Noah.pdf",
+    "nameDe": "Schulunterlagen Noah",
+    "namePt": "Documentos escolares — Noah",
+    "descriptionPt": "Papelada e documentos da escola de Noah."
+  },
+  "Escola|escolameninos.pdf": {
+    "fileName": "Schulunterlagen_Kinder.pdf",
+    "nameDe": "Schulunterlagen (Kinder)",
+    "namePt": "Documentos escolares — crianças",
+    "descriptionPt": "Documentos escolares reunidos dos meninos."
+  },
+  "Escola|kindergarden.pdf": {
+    "fileName": "Kindergarten_Unterlagen.pdf",
+    "nameDe": "Kindergarten-Unterlagen",
+    "namePt": "Documentos do jardim de infância",
+    "descriptionPt": "Matrícula e documentos do kindergarten."
+  },
+  "Escola|senha portão escola Noah e Gael.pdf": {
+    "fileName": "Schultor-Passwort_Noah_Gael.pdf",
+    "nameDe": "Schultor-Passwort",
+    "namePt": "Senha do portão escolar",
+    "descriptionPt": "Credencial de acesso ao portão da escola."
+  },
+  "Identidade|20260310968150.pdf": {
+    "fileName": "Leeres_Dokument.pdf",
+    "nameDe": "Leeres Dokument",
+    "namePt": "Arquivo vazio",
+    "descriptionPt": "PDF corrompido (0 bytes) — baixar novamente."
+  },
+  "Identidade|292877835.pdf": {
+    "fileName": "Referenzdokument_292877835.pdf",
+    "nameDe": "Referenzdokument",
+    "namePt": "Documento de referência",
+    "descriptionPt": "Documento administrativo com número de referência."
+  },
+  "Identidade|Auweisdokument.pdf": {
+    "fileName": "Ausweisdokument.pdf",
+    "nameDe": "Ausweisdokument",
+    "namePt": "Documento de identificação",
+    "descriptionPt": "Comprovante ou documento de identidade oficial."
+  },
+  "Identidade|certidão casamento.pdf": {
+    "fileName": "Heiratsurkunde.pdf",
+    "nameDe": "Heiratsurkunde",
+    "namePt": "Certidão de casamento",
+    "descriptionPt": "Certidão de casamento civil."
+  },
+  "Identidade|certidão de inteiro teor Natalia (1).pdf": {
+    "fileName": "Geburtsurkunde_Natalia_Inteiro_Teor.pdf",
+    "nameDe": "Geburtsurkunde Natalia (vollständig)",
+    "namePt": "Certidão de inteiro teor — Natália",
+    "descriptionPt": "Certidão de nascimento completa de Natália."
+  },
+  "Identidade|certidão Diego.pdf": {
+    "fileName": "Geburtsurkunde_Diego.pdf",
+    "nameDe": "Geburtsurkunde Diego",
+    "namePt": "Certidão de nascimento — Diego",
+    "descriptionPt": "Certidão de nascimento de Diego."
+  },
+  "Identidade|certidão Gael.pdf": {
+    "fileName": "Geburtsurkunde_Gael.pdf",
+    "nameDe": "Geburtsurkunde Gael",
+    "namePt": "Certidão de nascimento — Gael",
+    "descriptionPt": "Certidão de nascimento de Gael."
+  },
+  "Identidade|certidão Hugo Albs.pdf": {
+    "fileName": "Geburtsurkunde_Hugo_Albs.pdf",
+    "nameDe": "Geburtsurkunde Hugo Albs",
+    "namePt": "Certidão de nascimento — Hugo Albs",
+    "descriptionPt": "Certidão de nascimento de Hugo Albs."
+  },
+  "Identidade|certidão Natália_.pdf": {
+    "fileName": "Geburtsurkunde_Natalia.pdf",
+    "nameDe": "Geburtsurkunde Natalia",
+    "namePt": "Certidão de nascimento — Natália",
+    "descriptionPt": "Certidão de nascimento de Natália."
+  },
+  "Identidade|certidão Noah.pdf": {
+    "fileName": "Geburtsurkunde_Noah.pdf",
+    "nameDe": "Geburtsurkunde Noah",
+    "namePt": "Certidão de nascimento — Noah",
+    "descriptionPt": "Certidão de nascimento de Noah."
+  },
+  "Identidade|certidaodivorcio inteiro teor-Apostilado (1).pdf": {
+    "fileName": "Scheidungsurkunde_Apostille.pdf",
+    "nameDe": "Scheidungsurkunde (Apostille)",
+    "namePt": "Certidão de divórcio apostilada",
+    "descriptionPt": "Certidão de divórcio com apostila da Haia."
+  },
+  "Identidade|comprovante visto naty.jpg": {
+    "fileName": "Visum_Nachweis_Natalia.jpg",
+    "nameDe": "Visum-Nachweis Natalia",
+    "namePt": "Comprovante de visto — Natália",
+    "descriptionPt": "Comprovante do visto ou autorização de residência."
+  },
+  "Identidade|Visum_Nachweis_Natalia.jpg": {
+    "fileName": "Visum_Nachweis_Natalia.jpg",
+    "nameDe": "Visum-Nachweis Natalia",
+    "namePt": "Comprovante de visto — Natália",
+    "descriptionPt": "Comprovante do visto ou autorização de residência."
+  },
+  "Identidade|diploma Naty.pdf": {
+    "fileName": "Diplom_Natalia.pdf",
+    "nameDe": "Diplom Natalia",
+    "namePt": "Diploma — Natália",
+    "descriptionPt": "Diploma ou certificado de formação de Natália."
+  },
+  "Identidade|distrokid_promocard_Bra_C3_A7os_da_Terra.jpg": {
+    "fileName": "Promokarte_DistroKid.jpg",
+    "nameDe": "Promokarte DistroKid",
+    "namePt": "Cartão promocional DistroKid",
+    "descriptionPt": "Material promocional musical — não documento oficial."
+  },
+  "Identidade|Empfehlungsschreiben - Sebastian.jpg": {
+    "fileName": "Empfehlungsschreiben_Sebastian.jpg",
+    "nameDe": "Empfehlungsschreiben Sebastian",
+    "namePt": "Carta de recomendação — Sebastian",
+    "descriptionPt": "Carta de referência profissional de Sebastian."
+  },
+  "Identidade|Formulário de registro Natália.pdf": {
+    "fileName": "Registrierungsformular_Natalia.pdf",
+    "nameDe": "Registrierungsformular Natalia",
+    "namePt": "Formulário de registro — Natália",
+    "descriptionPt": "Formulário cadastral ou de registro oficial."
+  },
+  "Identidade|ID Diego.pdf": {
+    "fileName": "Personalausweis_Diego.pdf",
+    "nameDe": "Personalausweis Diego",
+    "namePt": "Documento de identidade — Diego",
+    "descriptionPt": "RG ou documento de identificação de Diego."
+  },
+  "Identidade|luciana ex .jpg": {
+    "fileName": "Foto_Luciana.jpg",
+    "nameDe": "Foto Luciana",
+    "namePt": "Foto — Luciana",
+    "descriptionPt": "Imagem de referência pessoal."
+  },
+  "Identidade|numero de referência do Gael.pdf": {
+    "fileName": "Referenznummer_Gael.pdf",
+    "nameDe": "Referenznummer Gael",
+    "namePt": "Número de referência — Gael",
+    "descriptionPt": "Número de processo ou referência administrativa de Gael."
+  },
+  "Identidade|numero de referência do Noah.pdf": {
+    "fileName": "Referenznummer_Noah.pdf",
+    "nameDe": "Referenznummer Noah",
+    "namePt": "Número de referência — Noah",
+    "descriptionPt": "Número de processo ou referência administrativa de Noah."
+  },
+  "Identidade|Reisepass Diego.jpg": {
+    "fileName": "Reisepass_Diego.jpg",
+    "nameDe": "Reisepass Diego",
+    "namePt": "Passaporte — Diego",
+    "descriptionPt": "Cópia do passaporte de Diego."
+  },
+  "Identidade|Reisepass Gael.jpg": {
+    "fileName": "Reisepass_Gael.jpg",
+    "nameDe": "Reisepass Gael",
+    "namePt": "Passaporte — Gael",
+    "descriptionPt": "Cópia do passaporte de Gael."
+  },
+  "Identidade|Reisepass Natália.jpg": {
+    "fileName": "Reisepass_Natalia.jpg",
+    "nameDe": "Reisepass Natalia",
+    "namePt": "Passaporte — Natália",
+    "descriptionPt": "Cópia do passaporte de Natália."
+  },
+  "Identidade|Reisepass Noah.jpg": {
+    "fileName": "Reisepass_Noah.jpg",
+    "nameDe": "Reisepass Noah",
+    "namePt": "Passaporte — Noah",
+    "descriptionPt": "Cópia do passaporte de Noah."
+  },
+  "Identidade|Staatsangehörigkeitsurkunde Heimatschein (Hugo Albs).pdf": {
+    "fileName": "Staatsangehoerigkeitsurkunde_Hugo_Albs.pdf",
+    "nameDe": "Staatsangehörigkeitsurkunde Hugo Albs",
+    "namePt": "Certificado de cidadania — Hugo Albs",
+    "descriptionPt": "Heimatschein / certificado de nacionalidade alemã."
+  },
+  "Identidade|Steuer-ID de todos.pdf": {
+    "fileName": "Steuer-ID_Familie.pdf",
+    "nameDe": "Steuer-Identifikationsnummern",
+    "namePt": "Steuer-ID da família",
+    "descriptionPt": "Números de identificação fiscal de todos."
+  },
+  "Identidade|Versicherungsnummernachweis.pdf": {
+    "fileName": "Versicherungsnummernachweis.pdf",
+    "nameDe": "Versicherungsnummernachweis",
+    "namePt": "Comprovante de número de seguro",
+    "descriptionPt": "Número de seguro social ou previdenciário."
+  },
+  "Imigracao|Audit Trail.pdf": {
+    "fileName": "Audit_Trail.pdf",
+    "nameDe": "Audit Trail",
+    "namePt": "Registro de auditoria",
+    "descriptionPt": "Histórico de ações em processo digital."
+  },
+  "Imigracao|Ausländerbehörde.jpg": {
+    "fileName": "Auslaenderbehoerde.jpg",
+    "nameDe": "Ausländerbehörde",
+    "namePt": "Autoridade de estrangeiros",
+    "descriptionPt": "Documento ou comprovante da Ausländerbehörde."
+  },
+  "Imigracao|carta convite.pdf": {
+    "fileName": "Einladungsschreiben.pdf",
+    "nameDe": "Einladungsschreiben",
+    "namePt": "Carta convite",
+    "descriptionPt": "Carta de convite para visto ou residência."
+  },
+  "Jobcenter_Beneficios|20260401_163756_Bewilligungsbescheid (2).pdf": {
+    "fileName": "Bewilligungsbescheid_2026.pdf",
+    "nameDe": "Bewilligungsbescheid (2026)",
+    "namePt": "Decisão de aprovação de benefício",
+    "descriptionPt": "Bescheid de aprovação do Jobcenter — abril/2026."
+  },
+  "Jobcenter_Beneficios|Bescheid über die Bewillingung von Leistungen zur Sicherung des Lebensunterhalts nach dem Zweiten Buch Sozialgesetzbuch (SGB II).pdf": {
+    "fileName": "Bescheid_SGB_II_Buergergeld.pdf",
+    "nameDe": "Bescheid SGB II (Bürgergeld)",
+    "namePt": "Decisão Bürgergeld (SGB II)",
+    "descriptionPt": "Aprovação de auxílio subsistência segundo livro do código social."
+  },
+  "Jobcenter_Beneficios|Bilden Juni.pdf": {
+    "fileName": "Bildungsnachweis_Juni.pdf",
+    "nameDe": "Bildungsnachweis Juni",
+    "namePt": "Comprovante educacional — junho",
+    "descriptionPt": "Documento Bilden enviado em junho."
+  },
+  "Jobcenter_Beneficios|Brief an das JobCenter.pdf": {
+    "fileName": "Brief_an_Jobcenter.pdf",
+    "nameDe": "Brief an das Jobcenter",
+    "namePt": "Carta ao Jobcenter",
+    "descriptionPt": "Correspondência enviada ao Jobcenter."
+  },
+  "Jobcenter_Beneficios|Brief Juni.pdf": {
+    "fileName": "Brief_Juni.pdf",
+    "nameDe": "Brief Juni",
+    "namePt": "Carta — junho",
+    "descriptionPt": "Correspondência recebida ou enviada em junho."
+  },
+  "Jobcenter_Beneficios|Brief vom 24 02.pdf": {
+    "fileName": "Brief_vom_24_02.pdf",
+    "nameDe": "Brief vom 24.02.",
+    "namePt": "Carta de 24/02",
+    "descriptionPt": "Correspondência datada de 24 de fevereiro."
+  },
+  "Jobcenter_Beneficios|EK Natalia.pdf": {
+    "fileName": "Einkommensnachweis_Natalia.pdf",
+    "nameDe": "Einkommensnachweis Natalia",
+    "namePt": "Comprovante de renda — Natália",
+    "descriptionPt": "Declaração ou prova de renda de Natália para Jobcenter."
+  },
+  "Jobcenter_Beneficios|Formulários Jobcenter Leipzig_.pdf": {
+    "fileName": "Jobcenter_Formulare_Leipzig.pdf",
+    "nameDe": "Jobcenter-Formulare Leipzig",
+    "namePt": "Formulários Jobcenter Leipzig",
+    "descriptionPt": "Pacote de formulários do Jobcenter de Leipzig."
+  },
+  "Jobcenter_Beneficios|job center - Bürgergeld.pdf": {
+    "fileName": "Jobcenter_Buergergeld_1.pdf",
+    "nameDe": "Jobcenter Bürgergeld (1)",
+    "namePt": "Jobcenter — Bürgergeld",
+    "descriptionPt": "Documento sobre auxílio Bürgergeld do Jobcenter."
+  },
+  "Jobcenter_Beneficios|Job center Bürgergeld_.pdf": {
+    "fileName": "Jobcenter_Buergergeld_2.pdf",
+    "nameDe": "Jobcenter Bürgergeld (2)",
+    "namePt": "Jobcenter — Bürgergeld (2)",
+    "descriptionPt": "Segundo documento Bürgergeld do Jobcenter."
+  },
+  "Jobcenter_Beneficios|leisquemeprotegem.pdf": {
+    "fileName": "Schutzgesetze_Uebersicht.pdf",
+    "nameDe": "Schutzgesetze (Übersicht)",
+    "namePt": "Leis que nos protegem",
+    "descriptionPt": "Resumo de direitos e leis de proteção social."
+  },
+  "Jobcenter_Beneficios|WEP Natalia.pdf": {
+    "fileName": "Weiterbewilligungsantrag_Natalia.pdf",
+    "nameDe": "Weiterbewilligungsantrag Natalia",
+    "namePt": "Renovação de benefício — Natália",
+    "descriptionPt": "Pedido de continuação de benefício (WEP) de Natália."
+  },
+  "Kindergeld|Beschrid über Kindergeld.pdf": {
+    "fileName": "Bescheid_Kindergeld.pdf",
+    "nameDe": "Bescheid Kindergeld",
+    "namePt": "Decisão Kindergeld",
+    "descriptionPt": "Notificação oficial sobre benefício Kindergeld."
+  },
+  "Kindergeld|Carta Kindergeld .pdf": {
+    "fileName": "Schreiben_Kindergeld.pdf",
+    "nameDe": "Schreiben Kindergeld",
+    "namePt": "Carta Kindergeld",
+    "descriptionPt": "Correspondência sobre benefício infantil."
+  },
+  "Kindergeld|Kindergeld nach dem Einkommensteurgesetz (EStG).pdf": {
+    "fileName": "Kindergeld_nach_EStG.pdf",
+    "nameDe": "Kindergeld nach EStG",
+    "namePt": "Kindergeld segundo EStG",
+    "descriptionPt": "Regulamentação do Kindergeld pela lei do imposto de renda."
+  },
+  "Moradia|Airbnb_Itinerary_HMEJE4JD5C_de_c805a.pdf": {
+    "fileName": "Airbnb_Reiseplan.pdf",
+    "nameDe": "Airbnb-Reiseplan",
+    "namePt": "Itinerário Airbnb",
+    "descriptionPt": "Confirmação de reserva temporária Airbnb."
+  },
+  "Moradia|Comprovante do caução_.pdf": {
+    "fileName": "Kaution_Nachweis.pdf",
+    "nameDe": "Kaution-Nachweis",
+    "namePt": "Comprovante de caução",
+    "descriptionPt": "Depósito de garantia do aluguel."
+  },
+  "Moradia|Contrato Slevogtstraße 19.pdf": {
+    "fileName": "Mietvertrag_Slevogtstrasse_19.pdf",
+    "nameDe": "Mietvertrag Slevogtstraße 19",
+    "namePt": "Contrato de aluguel — Slevogtstraße 19",
+    "descriptionPt": "Contrato de locação do apartamento na Slevogtstraße 19."
+  },
+  "Moradia|dresden.pdf": {
+    "fileName": "Wohnungssuche_Dresden.pdf",
+    "nameDe": "Wohnungssuche Dresden",
+    "namePt": "Busca de moradia — Dresden",
+    "descriptionPt": "Documentos relacionados à procura de imóvel em Dresden."
+  },
+  "Moradia|Immowelt - Selbsterklärung für Vermietungszwecke.pdf": {
+    "fileName": "Immowelt_Selbsterklaerung.pdf",
+    "nameDe": "Immowelt Selbsterklärung",
+    "namePt": "Autodeclaração Immowelt",
+    "descriptionPt": "Formulário de autodeclaração para aluguel via Immowelt."
+  },
+  "Moradia|Immowelt Teil 1 - Nach Besichtigung der Wohnung_.pdf": {
+    "fileName": "Immowelt_nach_Besichtigung.pdf",
+    "nameDe": "Immowelt nach Besichtigung",
+    "namePt": "Immowelt pós-visita",
+    "descriptionPt": "Documento Immowelt após visita ao imóvel."
+  },
+  "Moradia|Leipzig Immo - Selbstauskunft von Mietinteressenten.pdf": {
+    "fileName": "Selbstauskunft_Mietinteressent.pdf",
+    "nameDe": "Selbstauskunft Mietinteressent",
+    "namePt": "Autodeclaração do locatário",
+    "descriptionPt": "Formulário de dados financeiros para candidatura ao aluguel."
+  },
+  "Moradia|LeipzigPass_.pdf": {
+    "fileName": "Leipzig_Pass.pdf",
+    "nameDe": "Leipzig-Pass",
+    "namePt": "Leipzig Pass",
+    "descriptionPt": "Cartão de benefícios municipais de Leipzig."
+  },
+  "Moradia|Mietvertrag_Slevogtstraße 19_WE 4_Albs Passos-Pereira.pdf": {
+    "fileName": "Mietvertrag_Slevogtstrasse_19_WE4.pdf",
+    "nameDe": "Mietvertrag Slevogtstraße 19, WE 4",
+    "namePt": "Contrato aluguel — WE 4",
+    "descriptionPt": "Contrato assinado — unidade 4, Slevogtstraße 19."
+  },
+  "Moradia|rent Transaction-Details_03-03-2026.pdf": {
+    "fileName": "Mietzahlung_Nachweis_03-03-2026.pdf",
+    "nameDe": "Mietzahlung-Nachweis (03.03.2026)",
+    "namePt": "Comprovante pagamento aluguel",
+    "descriptionPt": "Transferência de aluguel em 03/03/2026."
+  },
+  "Moradia|Seu recibo do Airbnb_251217_091209.pdf": {
+    "fileName": "Airbnb_Quittung.pdf",
+    "nameDe": "Airbnb-Quittung",
+    "namePt": "Recibo Airbnb",
+    "descriptionPt": "Recibo de pagamento de estadia Airbnb."
+  },
+  "Moradia|Vermieterbestätitung.pdf": {
+    "fileName": "Vermieterbestaetigung.pdf",
+    "nameDe": "Vermieterbestätigung",
+    "namePt": "Confirmação do proprietário",
+    "descriptionPt": "Declaração do senhorio confirmando a locação."
+  },
+  "Moradia|Wohnungsgeberbestätigung.pdf": {
+    "fileName": "Wohnungsgeberbestaetigung.pdf",
+    "nameDe": "Wohnungsgeberbestätigung",
+    "namePt": "Confirmação do locador (Anmeldung)",
+    "descriptionPt": "Documento exigido para registro de endereço (Anmeldung)."
+  },
+  "Saude_Seguros|AOK carta 1.pdf": {
+    "fileName": "AOK_Schreiben_1.pdf",
+    "nameDe": "AOK-Schreiben (1)",
+    "namePt": "Carta AOK (1)",
+    "descriptionPt": "Correspondência do plano de saúde AOK."
+  },
+  "Saude_Seguros|AOK carta para jobcenter.pdf": {
+    "fileName": "AOK_Schreiben_Jobcenter.pdf",
+    "nameDe": "AOK-Schreiben an Jobcenter",
+    "namePt": "Carta AOK para Jobcenter",
+    "descriptionPt": "Comunicação AOK encaminhada ao Jobcenter."
+  },
+  "Saude_Seguros|AOK Cartão.pdf": {
+    "fileName": "AOK_Versicherungskarte.pdf",
+    "nameDe": "AOK-Versicherungskarte",
+    "namePt": "Cartão AOK",
+    "descriptionPt": "Carteirinha ou comprovante do seguro AOK."
+  },
+  "Saude_Seguros|AOK Diego.pdf": {
+    "fileName": "AOK_Unterlagen_Diego.pdf",
+    "nameDe": "AOK-Unterlagen Diego",
+    "namePt": "Documentos AOK — Diego",
+    "descriptionPt": "Documentos do seguro saúde AOK de Diego."
+  },
+  "Saude_Seguros|AOK Diego__Docs.pdf": {
+    "fileName": "AOK_Unterlagen_Diego_Kopie.pdf",
+    "nameDe": "AOK-Unterlagen Diego (Kopie)",
+    "namePt": "Documentos AOK — Diego (cópia)",
+    "descriptionPt": "Segunda versão dos documentos AOK de Diego."
+  },
+  "Saude_Seguros|AOK Natália_.pdf": {
+    "fileName": "AOK_Unterlagen_Natalia.pdf",
+    "nameDe": "AOK-Unterlagen Natalia",
+    "namePt": "Documentos AOK — Natália",
+    "descriptionPt": "Documentos do seguro saúde AOK de Natália."
+  },
+  "Saude_Seguros|AOK Natália___Docs.pdf": {
+    "fileName": "AOK_Unterlagen_Natalia_Kopie.pdf",
+    "nameDe": "AOK-Unterlagen Natalia (Kopie)",
+    "namePt": "Documentos AOK — Natália (cópia)",
+    "descriptionPt": "Segunda versão dos documentos AOK de Natália."
+  },
+  "Saude_Seguros|AOK número_.jpg": {
+    "fileName": "AOK_Versicherungsnummer.jpg",
+    "nameDe": "AOK-Versicherungsnummer",
+    "namePt": "Número AOK",
+    "descriptionPt": "Número de identificação do seguro AOK."
+  },
+  "Saude_Seguros|AOK Plus .jpg": {
+    "fileName": "AOK_Plus_Karte.jpg",
+    "nameDe": "AOK Plus",
+    "namePt": "Cartão AOK Plus",
+    "descriptionPt": "Comprovante ou cartão do plano AOK Plus."
+  },
+  "Saude_Seguros|Dentista Diego- da obrigação de confidencialidade_cópia.pdf": {
+    "fileName": "Schweigepflicht_Zahnarzt_Diego.pdf",
+    "nameDe": "Schweigepflicht Zahnarzt Diego",
+    "namePt": "Confidencialidade dentista — Diego",
+    "descriptionPt": "Termo de sigilo médico do consultório dentário."
+  },
+  "Saude_Seguros|GetSafe - Haftpflicht Versicherungsnachweis.pdf": {
+    "fileName": "GetSafe_Haftpflicht_Nachweis.pdf",
+    "nameDe": "GetSafe Haftpflicht-Nachweis",
+    "namePt": "Seguro responsabilidade civil GetSafe",
+    "descriptionPt": "Comprovante de seguro de responsabilidade civil."
+  },
+  "Saude_Seguros|GetSafe Versicherungsausweis.pdf.pdf": {
+    "fileName": "GetSafe_Versicherungsausweis.pdf",
+    "nameDe": "GetSafe Versicherungsausweis",
+    "namePt": "Cartão seguro GetSafe",
+    "descriptionPt": "Carteirinha ou certificado do seguro GetSafe."
+  },
+  "Saude_Seguros|LA9572576UKGZ-56009036-6dd2-4a18-b866-c80688d67e92-cuv.pdf": {
+    "fileName": "Versicherungsdokument_CUV.pdf",
+    "nameDe": "Versicherungsdokument (CUV)",
+    "namePt": "Documento de seguro CUV",
+    "descriptionPt": "Documento eletrônico de seguro ou saúde."
+  },
+  "Saude_Seguros|Versicherungsausweis ARAG WohnenPlus Versicherungspaket S.pdf": {
+    "fileName": "ARAG_WohnenPlus_Ausweis.pdf",
+    "nameDe": "ARAG WohnenPlus Versicherungsausweis",
+    "namePt": "Seguro residencial ARAG WohnenPlus",
+    "descriptionPt": "Certificado do pacote de seguro residencial ARAG."
+  },
+  "Trabalho_Renda|account bank.pdf": {
+    "fileName": "Kontoauszug_Deutsche_Bank.pdf",
+    "nameDe": "Kontoauszug Deutsche Bank",
+    "namePt": "Extrato Deutsche Bank",
+    "descriptionPt": "Extrato ou comprovante de conta bancária."
+  },
+  "Trabalho_Renda|contracheque dezembro.pdf": {
+    "fileName": "Gehaltsabrechnung_Dezember.pdf",
+    "nameDe": "Gehaltsabrechnung Dezember",
+    "namePt": "Contracheque — dezembro",
+    "descriptionPt": "Holerite ou comprovante de salário de dezembro."
+  },
+  "Trabalho_Renda|DBank feb.pdf": {
+    "fileName": "Kontoauszug_Februar.pdf",
+    "nameDe": "Kontoauszug Februar",
+    "namePt": "Extrato bancário — fevereiro",
+    "descriptionPt": "Extrato Deutsche Bank de fevereiro."
+  },
+  "Trabalho_Renda|DBank march.pdf": {
+    "fileName": "Kontoauszug_Maerz.pdf",
+    "nameDe": "Kontoauszug März",
+    "namePt": "Extrato bancário — março",
+    "descriptionPt": "Extrato Deutsche Bank de março."
+  },
+  "Trabalho_Renda|DE Rider Part-time 32 Limited - December 2025.pdf": {
+    "fileName": "Arbeitsvertrag_Flink_Dezember_2025.pdf",
+    "nameDe": "Arbeitsvertrag Flink (Dez. 2025)",
+    "namePt": "Contrato de trabalho Flink",
+    "descriptionPt": "Contrato part-time Flink/Rider — dezembro 2025."
+  },
+  "Trabalho_Renda|Deutsch Bank.pdf": {
+    "fileName": "Deutsche_Bank_Unterlagen.pdf",
+    "nameDe": "Deutsche Bank Unterlagen",
+    "namePt": "Documentos Deutsche Bank",
+    "descriptionPt": "Documentação ou extrato da conta Deutsche Bank."
+  },
+  "Trabalho_Renda|jan-mar Natália Bank.pdf": {
+    "fileName": "Kontoauszug_Natalia_Jan_Mar.pdf",
+    "nameDe": "Kontoauszug Natalia (Jan–Mrz)",
+    "namePt": "Extrato Natália — jan a mar",
+    "descriptionPt": "Extratos bancários de Natália de janeiro a março."
+  },
+  "Trabalho_Renda|N26 Dez.pdf": {
+    "fileName": "N26_Kontoauszug_Dezember.pdf",
+    "nameDe": "N26 Kontoauszug Dezember",
+    "namePt": "Extrato N26 — dezembro",
+    "descriptionPt": "Extrato da conta N26 de dezembro."
+  },
+  "Trabalho_Renda|N26 Jan.pdf": {
+    "fileName": "N26_Kontoauszug_Januar.pdf",
+    "nameDe": "N26 Kontoauszug Januar",
+    "namePt": "Extrato N26 — janeiro",
+    "descriptionPt": "Extrato da conta N26 de janeiro."
+  },
+  "Trabalho_Renda|N26 Nov.pdf": {
+    "fileName": "N26_Kontoauszug_November.pdf",
+    "nameDe": "N26 Kontoauszug November",
+    "namePt": "Extrato N26 — novembro",
+    "descriptionPt": "Extrato da conta N26 de novembro."
+  }
+}

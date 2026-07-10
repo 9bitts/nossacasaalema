@@ -250,6 +250,31 @@ a { color: var(--primary); }
 .file-icon.doc, .file-icon.docx { background: #dbeafe; color: #1e40af; }
 .file-icon.other { background: #f1f5f9; color: #475569; }
 
+.doc-titles { flex: 1; min-width: 0; }
+
+.doc-name-de {
+  font-weight: 700;
+  font-size: 0.95rem;
+  word-break: break-word;
+  line-height: 1.35;
+  color: var(--text);
+}
+
+.doc-name-pt {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 0.15rem;
+  line-height: 1.3;
+}
+
+.doc-desc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 0.35rem;
+  line-height: 1.4;
+}
+
 .doc-name {
   font-weight: 600;
   font-size: 0.9rem;

@@ -39,7 +39,7 @@ function getFilteredDocs() {
     const matchCategory = activeCategory === 'all' || doc.category === activeCategory;
     if (!matchCategory) return false;
     if (!searchQuery) return true;
-    const haystack = normalize(`${doc.name} ${doc.categoryLabel} ${doc.category} ${doc.extension}`);
+    const haystack = normalize(`${doc.nameDe} ${doc.namePt} ${doc.descriptionPt} ${doc.name} ${doc.categoryLabel} ${doc.category} ${doc.extension}`);
     return haystack.includes(normalize(searchQuery));
   });
 }
@@ -85,12 +85,17 @@ function renderDocs(docs) {
     const viewUrl = doc.path;
     const downloadUrl = `${doc.path}?download=1`;
 
+    const title = doc.nameDe || doc.name;
+    const downloadName = doc.fileName || doc.name;
+
     return `
       <article class="doc-card" data-id="${doc.id}">
         <div class="doc-card-header">
           <div class="file-icon ${iconClass}">${ext.slice(0, 4)}</div>
-          <div>
-            <div class="doc-name" title="${doc.name}">${doc.name}</div>
+          <div class="doc-titles">
+            <div class="doc-name-de" title="${title}">${title}</div>
+            <div class="doc-name-pt">${doc.namePt || ''}</div>
+            <p class="doc-desc">${doc.descriptionPt || ''}</p>
             <span class="doc-category">${doc.categoryLabel}</span>
           </div>
         </div>
@@ -100,7 +105,7 @@ function renderDocs(docs) {
         </div>
         <div class="doc-actions">
           <a class="btn btn-outline" href="${viewUrl}" target="_blank" rel="noopener">Abrir</a>
-          <a class="btn btn-outline btn-download" href="${downloadUrl}" download="${doc.name}">Download</a>
+          <a class="btn btn-outline btn-download" href="${downloadUrl}" download="${downloadName}">Download</a>
         </div>
       </article>
     `;
@@ -225,6 +230,9 @@ async function handleUpload(e) {
       newDocs.push({
         id: crypto.randomUUID(),
         name: file.name,
+        nameDe: file.name,
+        namePt: 'Novo documento',
+        descriptionPt: 'Enviado via upload — revisar nome e descricao.',
         category,
         categoryLabel: manifest.categories[category],
         path,
