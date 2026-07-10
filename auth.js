@@ -1,5 +1,3 @@
-import { AUTH_EMAIL, AUTH_PASSWORD_HASH } from './auth-config.js';
-
 const SESSION_KEY = 'nossacasa_auth';
 
 async function hashPassword(password) {
@@ -7,24 +5,42 @@ async function hashPassword(password) {
   return Array.from(new Uint8Array(buf), (b) => b.toString(16).padStart(2, '0')).join('');
 }
 
-export function isLoggedIn() {
-  return sessionStorage.getItem(SESSION_KEY) === AUTH_EMAIL;
+export async function isLoggedIn() {
+  try {
+    const res = await fetch('/api/session', { credentials: 'same-origin' });
+    if (!res.ok) return false;
+    const data = await res.json();
+    return data.authenticated === true;
+  } catch {
+    return sessionStorage.getItem(SESSION_KEY) === '1';
+  }
 }
 
-export function logout() {
-  sessionStorage.removeItem(SESSION_KEY);
+export async function logout() {
+  try {
+    await fetch('/api/logout', { method: 'POST', credentials: 'same-origin' });
+  } catch {
+    sessionStorage.removeItem(SESSION_KEY);
+  }
   location.reload();
 }
 
 export async function login(email, password) {
-  const normalizedEmail = email.trim().toLowerCase();
-  const expectedEmail = AUTH_EMAIL.trim().toLowerCase();
-  const hash = await hashPassword(password);
-  if (normalizedEmail === expectedEmail && hash === AUTH_PASSWORD_HASH) {
-    sessionStorage.setItem(SESSION_KEY, AUTH_EMAIL);
-    return true;
+  try {
+    const res = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'same-origin',
+      body: JSON.stringify({ email, password }),
+    });
+    if (res.ok) {
+      sessionStorage.setItem(SESSION_KEY, '1');
+      return true;
+    }
+    return false;
+  } catch {
+    return false;
   }
-  return false;
 }
 
 function showApp() {
@@ -68,7 +84,7 @@ function setupLoginForm() {
 }
 
 async function boot() {
-  if (isLoggedIn()) {
+  if (await isLoggedIn()) {
     showApp();
     const { initApp } = await import('./app.js');
     initApp();

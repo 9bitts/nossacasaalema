@@ -4,22 +4,32 @@ Arquivo familiar de documentos organizados por categoria, com busca, download e 
 
 **Site:** https://9bitts.github.io/nossacasaalema/
 
-## Acesso
+## Acesso (Railway)
 
-Login com um único e-mail e senha (configurados em `auth-config.js`):
+Credenciais ficam **somente no Railway**, nunca no codigo:
 
-| Campo | Valor padrão |
-|-------|----------------|
-| E-mail | `familia@nossacasaalema.de` |
-| Senha | `NossaCasa2026!` |
+| Variavel | Descricao |
+|----------|-----------|
+| `AUTH_EMAIL` | E-mail unico permitido |
+| `AUTH_PASSWORD_HASH` | SHA-256 da senha |
+| `SESSION_SECRET` | String aleatoria longa (ex.: 32+ caracteres) |
 
-Para alterar a senha:
+Gerar hash da senha:
 
 ```powershell
-powershell -File scripts/hash-password.ps1 "NovaSenhaAqui"
+powershell -File scripts/hash-password.ps1 "SuaSenha"
 ```
 
-Copie o hash gerado para `AUTH_PASSWORD_HASH` em `auth-config.js` e altere `AUTH_EMAIL` se necessário.
+## Conferir se esta privado
+
+1. **GitHub repo privado** — Settings → Danger Zone → Change visibility → Private  
+   (senao qualquer pessoa clona todos os PDFs do repositorio)
+2. **GitHub Pages desligado** — Settings → Pages → Source: None
+3. **Teste no Railway (aba anonima):**
+   - Abra a URL do Railway → deve pedir login
+   - Tente abrir direto um PDF, ex.: `https://SEU-APP.up.railway.app/Organizado/Identidade/Reisepass%20Diego.jpg`
+   - Deve retornar **401 Acesso negado** sem login
+4. **Nao use** a URL `github.io/nossacasaalema` se Pages estiver ativo
 
 ## Estrutura
 
